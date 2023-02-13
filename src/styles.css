@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  background-color: rgb(73, 73, 73);
+  font-family: Verdana;
+}
+
+h1, p {
+  color: aliceblue;
+}
+

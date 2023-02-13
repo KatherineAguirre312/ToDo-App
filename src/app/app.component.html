@@ -1,0 +1,17 @@
+<h1>ToDo APP</h1>
+<div class="add-task-form">
+  <p class="input-label">Ingresa aquí la descripción de la tarea:</p>
+  <div class="add-task-form">
+    <input [(ngModel)]="newTaskText">
+    <button (click)="addTask('Tarea de alta prioridad')">Tarea de alta prioridad</button>
+    <button (click)="addTask('Tarea con mediana prioridad')">Tarea con mediana prioridad</button>
+    <button (click)="addTask('Tarea con baja prioridad')">Tarea con baja prioridad</button>
+  </div>
+</div>
+<div class="tasks-list">
+  <app-task
+    *ngFor="let task of tasksList; let i = index"
+    [texto]="task"
+    (onEliminar)="eliminarTask(i)"
+  ></app-task>
+</div>

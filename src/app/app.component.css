@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+.tasks-list {
+  margin: left;
+  max-width: 85%;
+  padding: 10px;
+}
+
+.input-label {
+  margin-bottom: 10px;
+}
+
+.add-task-form p {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+.add-task-form input {
+  margin-top: 10px;
+  width: 30%;
+  height: 20px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 250px;
+  height: 35px;
+  background-color: rgb(125, 155, 165);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
